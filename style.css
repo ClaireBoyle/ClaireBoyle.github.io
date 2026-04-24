@@ -2,13 +2,12 @@ body{
     background-color: darkslateblue;
 }
 
-@font-face {
-    font-family:"Acum";
-    src: url('Acumin\ Variable\ Concept.woff') format('woff')
-}
 
 
-h1{
+h2{
     font-family: "baskerville-bt";
 }
 
+h1{
+    font-family: "acumin-variable";
+}
