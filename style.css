@@ -185,6 +185,40 @@ div.nav {
   margin-top: 8%;
 }
 
+.intro-headline span {
+  display: block;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typeLine 0.9s steps(12) forwards;
+}
+
+.intro-headline span:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.intro-headline span:nth-child(2) {
+  animation-delay: 1.1s;
+}
+
+.intro-headline span:nth-child(3) {
+  animation-delay: 1.7s;
+}
+
+.intro-headline span:nth-child(4) {
+  animation-delay: 2.4s;
+}
+
+@keyframes typeLine {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
 .whole-word {
   font-weight: 1000;
   font-size: 150px;
